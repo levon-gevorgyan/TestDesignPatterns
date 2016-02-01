@@ -1,0 +1,11 @@
+package bridge.pattern;
+
+/**
+ * Created by Levon on 2/1/2016, 11:00 PM
+ */
+public class GreenCircle implements DrawAPI {
+    @Override
+    public void drawCircle(int radius, int x, int y) {
+        System.out.println("Green"+radius+x+y);
+    }
+}
